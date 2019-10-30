@@ -1,5 +1,3 @@
-package lka.server.Client_Server;
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -9,7 +7,7 @@ import static java.lang.System.out;
 public class Server {
     public static void main(String[] args) {
 
-        try (ServerSocket server = new ServerSocket(8000))
+        try (ServerSocket server = new ServerSocket(14587))
         {
             out.println("Server started");
 
